@@ -3,10 +3,6 @@
 
 import os, sys
 
-# https://stackoverflow.com/a/18683105/10216412
-def remove_last_line_from_string(s):
-    return s[:s.rfind('\n')]
-
 # Path of inputted file
 path = sys.argv[1]
 srTxt = open(path , 'rb')
@@ -41,7 +37,6 @@ for i in sectionOffsets:
     
     parsedData += '\n'
 print('\n')
-parsedData = remove_last_line_from_string(parsedData)
 
 # Splits extension from path
 pre, ext = os.path.splitext(path)
