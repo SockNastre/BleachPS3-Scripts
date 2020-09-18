@@ -30,8 +30,7 @@ for i in sectionOffsets:
             # https://stackoverflow.com/a/3673447/10216412
             parsedData += str(chr(c))
         else:
-	    # Special hex icons have '-' appended.
-            parsedData += hex(c) + '-'
+            parsedData += hex(c)
         
         c = int.from_bytes(srTxt.read(4), byteorder='big')
     
