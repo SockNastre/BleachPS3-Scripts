@@ -42,9 +42,6 @@ print('\n')
 pre, ext = os.path.splitext(path)
 outputPath = pre + ".txt"
 
-if os.path.exists(outputPath):
-    raise FileExistsError("File \"" + outputPath + "\" already exists.")
-
 # Outputs text file
 with open(outputPath, 'w') as txt:
     txt.write(parsedData)
