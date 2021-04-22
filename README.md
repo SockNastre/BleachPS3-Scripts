@@ -13,3 +13,6 @@ __TO DO__: Print more general information about the resFat at the beginning of t
 
 ### spk_unpack.bat / unpack_spk.py
 Drag and drop .spk archives onto the script file, it will unpack the inside contents of the archive. Although many of the times these outputted formats are proprietary and require another tool.
+
+### srtxt_parse.bat / parse_srtxt.py
+Drag and drop .srtxt text files onto the script file, it will output (as a text file) the text and special symbols within the srTxt file.
