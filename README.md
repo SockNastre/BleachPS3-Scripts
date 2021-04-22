@@ -7,6 +7,6 @@ All batch scripts here run through Python scripts in "pyscripts" folder. The bat
 If you want to get into contact with anyone involved with these scripts, the best place to get in contact is the [Resurrección Toolkit Discord](https://discord.gg/2yfxG6X).
 
 ### resfat_parse.bat / parse_resfat.py
-Drag and drop .res file onto the script file, it will output (as a text file) the SPK associated with the resFat and also what sections exist within those SPK.
+Drag and drop resFat .bin file onto the script file, it will output (as a text file) the SPK associated with the resFat and also what sections exist within those SPK.
 
 TO DO: Print more general information about the resFat at the beginning of the text file.
