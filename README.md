@@ -16,3 +16,6 @@ Drag and drop .spk archives onto the script file, it will unpack the inside cont
 
 ### srtxt_parse.bat / parse_srtxt.py
 Drag and drop .srtxt text files onto the script file, it will output (as a text file) the text and special symbols within the srTxt file.
+
+### texcol_unpack.bat / unpack_texcol.py (UNCOMPLETED)
+Drag and drop .texcol texture collection files onto the script file, it will unpack all the texture files in the collection as DDS textures.
