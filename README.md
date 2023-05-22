@@ -1,3 +1,5 @@
+**Project is not planned on being continued or supported, you may look for an alternative or continue to use the code/software here. Thank you.**
+
 Requires Python 3
 
 ## Information
